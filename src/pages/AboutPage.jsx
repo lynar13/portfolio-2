@@ -21,7 +21,7 @@ export default function AboutPage() {
 
       <div className="grid md:grid-cols-2 gap-8 items-start mt-10">
         <img
-          src="src/assets/profile.jpeg" // Add a valid profile image in public/images/
+          src="/assets/profile.jpeg" // Add a valid profile image in public/images/
           alt="Romelyn Resell"
           className="rounded-lg w-full max-w-sm mx-auto shadow-lg"
         />
