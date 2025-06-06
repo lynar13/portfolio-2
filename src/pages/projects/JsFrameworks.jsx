@@ -10,7 +10,7 @@ export default function JsFrameworks() {
   const thumbnails = [
     { src: "/assets/jsfw.png", alt: "Main App Page" },
     { src: "/assets/jsfw-cart.png", alt: "Cart Page" },
-    { src: "/assets/jsfw-checkout.png", alt: "Checkout Flow" },
+    { src: "/assets/toastify-notif.png", alt: "Checkout Flow" },
   ];
 
   const handleCopy = () => {
@@ -90,7 +90,7 @@ export default function JsFrameworks() {
 
       <section className="mt-10">
         <h2 className="text-xl text-gray-200 font-semibold mb-2">Overview</h2>
-        <h3 className="text-lg text-gray-200 font-medium mb-2">The LynEllie Store App is a single-page React application featuring:</h3>
+        <h3 className="text-lg text-gray-200 font-medium mb-2">The Lyn-Ecom Store App is a single-page React application featuring:</h3>
         <ul className="space-y-1 p-4 text-gray-200 list-disc list-inside">
           <li>Product listing and details</li>
           <li>Persistent shopping cart</li>
