@@ -9,15 +9,15 @@ export default function ExamProject2() {
 
   const thumbnails = [
     {
-      src: "/src/assets/exam2.png",
+      src: "/assets/exam2.png",
       alt: "Holidaze Home Page",
     },
     {
-      src: "/src/assets/exam2-dashboard.png",
+      src: "/assets/exam2-dashboard.png",
       alt: "Admin Dashboard",
     },
     {
-      src: "/src/assets/exam2-listing.png",
+      src: "/assets/exam2-listing.png",
       alt: "Venue Listing",
     },
   ];

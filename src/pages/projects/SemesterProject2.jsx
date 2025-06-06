@@ -9,15 +9,15 @@ export default function SemesterProject2() {
 
   const thumbnails = [
     {
-      src: "/src/assets/sem2-desktop.png",
+      src: "/assets/sem2-desktop.png",
       alt: "Auction Home Page",
     },
     {
-      src: "/src/assets/sem2-login.png",
+      src: "/assets/sem2-login.png",
       alt: "Login Page",
     },
     {
-      src: "/src/assets/sem2-create-listing.png",
+      src: "/assets/sem2-create-listing.png",
       alt: "Create Listing Page",
     },
   ];

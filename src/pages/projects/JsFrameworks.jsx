@@ -8,9 +8,9 @@ export default function JsFrameworks() {
   const [copied, setCopied] = useState(false);
 
   const thumbnails = [
-    { src: "/src/assets/jsfw.png", alt: "Main App Page" },
-    { src: "/src/assets/jsfw-cart.png", alt: "Cart Page" },
-    { src: "/src/assets/jsfw-checkout.png", alt: "Checkout Flow" },
+    { src: "/assets/jsfw.png", alt: "Main App Page" },
+    { src: "/assets/jsfw-cart.png", alt: "Cart Page" },
+    { src: "/assets/jsfw-checkout.png", alt: "Checkout Flow" },
   ];
 
   const handleCopy = () => {

@@ -1,7 +1,7 @@
 import ProjectCard from '../components/ProjectCard';
-import jsImg from '../assets/jsfw.png';
-import semImg from '../assets/sem2-desktop.png';
-import examImg from '../assets/exam2.png';
+import jsImg from '/assets/jsfw.png';
+import semImg from '/assets/sem2-desktop.png';
+import examImg from '/assets/exam2.png';
 
 export default function Home() {
   const projects = [
