@@ -84,7 +84,7 @@ export default function SemesterProject2() {
       {/* Links + Share */}
       <div className="flex flex-wrap items-center gap-4 pt-4">
         <a
-          href="https://lynar13.github.io/auction-website/"
+          href="https://auction-website.netlify.app/"
           target="_blank"
           rel="noreferrer"
           className="underline"
