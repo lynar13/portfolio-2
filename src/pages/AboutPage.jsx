@@ -12,7 +12,7 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold mb-4 text-center text-[#D98969]">
         About Me
       </h1>
-      <p className="text-lg text-gray-100 mb-6 text-center">
+      <p className="text-lg text-gray-200 mb-6 text-center">
         Hi, I’m Romelyn! 👋 I’m a passionate front-end developer who enjoys
         crafting modern, responsive web interfaces. With a focus on React, Vite and
         Tailwind CSS, I bring ideas to life through accessible, user-focused
@@ -43,7 +43,7 @@ export default function AboutPage() {
           </p>
           <a
             href="/Romelyn-Resume.pdf"
-            className="inline-block bg-[#D98969] hover:bg-[#c97256] text-white font-semibold px-5 py-2 rounded transition duration-300"
+            className="inline-block bg-[#D98969] hover:bg-[#c97256] text-gray-200 font-semibold px-5 py-2 rounded transition duration-300"
             download
           >
             Download Resume

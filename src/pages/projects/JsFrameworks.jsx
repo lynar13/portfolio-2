@@ -23,8 +23,8 @@ export default function JsFrameworks() {
     <article className="mx-auto px-4 py-12 max-w-4xl space-y-6">
       <BackButton label="Back to Projects" />
 
-      <h1 className="text-3xl font-bold text-white">JavaScript Frameworks Project</h1>
-      <p className="text-white">
+      <h1 className="text-3xl font-bold text-gray-200">JavaScript Frameworks Project</h1>
+      <p className="text-gray-200">
         This is a fully functional eCommerce store built with React and React Router. It features product browsing, a cart system, a checkout process, and a contact form with validation. The project ensures a responsive design and uses CSS Modules for styling.
       </p>
 
@@ -39,7 +39,7 @@ export default function JsFrameworks() {
                 className="rounded shadow w-[280px] h-[180px] object-cover cursor-pointer"
                 onClick={() => setActiveImage(img.src)}
               />
-              <figcaption className="text-sm text-white mt-2 text-center">{img.alt}</figcaption>
+              <figcaption className="text-sm text-gray-200 mt-2 text-center">{img.alt}</figcaption>
             </figure>
           ))}
         </div>
@@ -66,7 +66,7 @@ export default function JsFrameworks() {
           href="https://lyn-ellie-store.netlify.app/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="text-gray-200 underline"
         >
           Live Site
         </a>
@@ -74,13 +74,13 @@ export default function JsFrameworks() {
           href="https://github.com/lynar13/lyn-ellie-store-app"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="text-gray-200 underline"
         >
           GitHub Repo
         </a>
         <button
           onClick={handleCopy}
-          className="flex items-center gap-1 text-white transition"
+          className="flex items-center gap-1 text-gray-200 transition"
           title="Copy page URL"
         >
           <RiShare2Line size={18} />
@@ -89,9 +89,9 @@ export default function JsFrameworks() {
       </div>
 
       <section className="mt-10">
-        <h2 className="text-xl font-semibold mb-2">Overview</h2>
-        <h3 className="text-lg font-medium mb-2">The LynEllie Store App is a single-page React application featuring:</h3>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <h2 className="text-xl text-gray-200 font-semibold mb-2">Overview</h2>
+        <h3 className="text-lg text-gray-200 font-medium mb-2">The LynEllie Store App is a single-page React application featuring:</h3>
+        <ul className="space-y-1 p-4 text-gray-200 list-disc list-inside">
           <li>Product listing and details</li>
           <li>Persistent shopping cart</li>
           <li>Multi-step checkout process</li>
@@ -103,7 +103,7 @@ export default function JsFrameworks() {
 
       <section className="mt-10">
         <h2 className="text-xl font-semibold mb-2">Reflections & Improvements</h2>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <ul className="space-y-1 p-4 text-gray-200 list-disc list-inside">
           <li>Challenges: Managing state across cart, checkout, and contact form logic.</li>
           <li>Learnings: Gained strong understanding of controlled forms and client-side validation in React.</li>
           <li>Next Steps: Add user login, order history, and API integration.</li>

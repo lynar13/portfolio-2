@@ -29,11 +29,11 @@ export default function ExamProject2() {
   };
 
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 space-y-6">
+    <article className="text-gray-200 max-w-4xl mx-auto px-4 py-12 space-y-6">
       <BackButton label="Back to Projects" />
 
-      <h1 className="text-3xl font-bold text-white">Exam Project 2</h1>
-      <p className="text-white">
+      <h1 className="text-3xl font-bold">Exam Project 2</h1>
+      <p>
         A modern vacation venue booking app built with React, Vite, Tailwind,
         and the Holidaze API. Includes admin dashboard, booking system, and user
         roles.
@@ -50,7 +50,7 @@ export default function ExamProject2() {
                 className="rounded shadow w-[280px] h-[180px] object-cover cursor-pointer"
                 onClick={() => setActiveImage(img.src)}
               />
-              <figcaption className="text-sm text-white mt-2 text-center">
+              <figcaption className="text-sm mt-2 text-center">
                 {img.alt}
               </figcaption>
             </figure>
@@ -72,7 +72,7 @@ export default function ExamProject2() {
           />
           <button
             onClick={() => setActiveImage(null)}
-            className="absolute top-6 right-6 text-white text-3xl font-bold"
+            className="absolute top-6 right-6 text-3xl font-bold"
           >
             &times;
           </button>
@@ -85,7 +85,7 @@ export default function ExamProject2() {
           href="https://lynar13.github.io/holidaze"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="underline"
         >
           Live Site
         </a>
@@ -93,13 +93,13 @@ export default function ExamProject2() {
           href="https://github.com/lynar13/holidaze"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="underline"
         >
           GitHub Repo
         </a>
         <button
           onClick={handleCopy}
-          className="flex items-center gap-1 text-white transition"
+          className="flex items-center gap-1 text-gray-200 transition"
           title="Copy page URL"
         >
           <RiShare2Line size={18} />
@@ -113,7 +113,7 @@ export default function ExamProject2() {
           Holidaze is a fully responsive, mobile-first web app that allows users
           to:
         </h3>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <ul className="space-y-1 p-4 list-disc list-inside">
           <li>Browse and book venues</li>
           <li>Register and login</li>
           <li>Search and filter results</li>
@@ -126,7 +126,7 @@ export default function ExamProject2() {
         <h2 className="text-xl font-semibold mb-2">
           Reflections & Improvements
         </h2>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <ul className="space-y-1 p-4 list-disc list-inside">
           <li>
             Challenges: Authentication, protected routes, and conditional UI for
             admins.

@@ -29,11 +29,11 @@ export default function SemesterProject2() {
   };
 
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 space-y-6">
+    <article className="max-w-4xl mx-auto text-gray-200 px-4 py-12 space-y-6">
       <BackButton label="Back to Projects" />
 
-      <h1 className="text-3xl font-bold text-white">Semester 2 Project</h1>
-      <p className="text-white">
+      <h1 className="text-3xl font-bold">Semester 2 Project</h1>
+      <p>
         The Auction House Project is a web application that allows users to
         create, manage, and participate in online auctions. The app is built
         with Vite, styled using Bootstrap and SASS/SCSS, and deployed using
@@ -52,7 +52,7 @@ export default function SemesterProject2() {
                 className="rounded shadow w-[280px] h-[180px] object-cover cursor-pointer"
                 onClick={() => setActiveImage(img.src)}
               />
-              <figcaption className="text-sm text-white mt-2 text-center">
+              <figcaption className="text-sm mt-2 text-center">
                 {img.alt}
               </figcaption>
             </figure>
@@ -74,7 +74,7 @@ export default function SemesterProject2() {
           />
           <button
             onClick={() => setActiveImage(null)}
-            className="absolute top-6 right-6 text-white text-3xl font-bold"
+            className="absolute top-6 right-6 text-3xl font-bold"
           >
             &times;
           </button>
@@ -87,7 +87,7 @@ export default function SemesterProject2() {
           href="https://lynar13.github.io/auction-website/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="underline"
         >
           Live Site
         </a>
@@ -95,13 +95,13 @@ export default function SemesterProject2() {
           href="https://github.com/lynar13/auction-website"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 underline"
+          className="underline"
         >
           GitHub Repo
         </a>
         <button
           onClick={handleCopy}
-          className="flex items-center gap-1 text-white transition"
+          className="flex items-center gap-1 text-gray-200 transition"
           title="Copy page URL"
         >
           <RiShare2Line size={18} />
@@ -114,7 +114,7 @@ export default function SemesterProject2() {
         <h3 className="text-lg mb-2">
           Built as part of the Semester Project 2, this platform features:
         </h3>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <ul className="space-y-1 p-4 list-disc list-inside">
           <li>User registration and authentication</li>
           <li>Create, delete, and bid on listings</li>
           <li>Search and filter results</li>
@@ -127,7 +127,7 @@ export default function SemesterProject2() {
         <h2 className="text-xl mb-2">
           Reflections & Improvements
         </h2>
-        <ul className="space-y-1 p-4 text-white list-disc list-inside">
+        <ul className="space-y-1 p-4 list-disc list-inside">
           <h3>Security:</h3>
           <li className="p-4">
             🔐 Environment Variables: Sensitive data like the API key is now
