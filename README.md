@@ -33,7 +33,7 @@ src/
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
 - [React Router](https://reactrouter.com/)
-- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://netlify.com/)
 
 ---
 
