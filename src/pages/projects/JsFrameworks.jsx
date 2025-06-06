@@ -63,7 +63,7 @@ export default function JsFrameworks() {
       {/* Links + Share */}
       <div className="flex flex-wrap items-center gap-4 pt-4">
         <a
-          href="https://lyn-ellie-store.netlify.app/"
+          href="https://lyn-ecom-store.netlify.app/"
           target="_blank"
           rel="noreferrer"
           className="text-gray-200 underline"
