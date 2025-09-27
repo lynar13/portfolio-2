@@ -13,10 +13,10 @@ export default function AboutPage() {
         About Me
       </h1>
       <p className="text-lg text-gray-200 mb-6 text-center">
-        Hi, I’m Romelyn! 👋 I’m a passionate front-end developer who enjoys
-        crafting modern, responsive web interfaces. With a focus on React, Vite and
-        Tailwind CSS, I bring ideas to life through accessible, user-focused
-        design.
+        Hi, I’m Romelyn! 👋 I’m a Front-end development graduate and now a Web Design student
+        with a background in IT and media production. Skilled in React,
+        JavaScript, Tailwind CSS, and API integration, with a strong focus on
+        clean UI and user-friendly digital solutions.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8 items-start mt-10">
@@ -28,25 +28,34 @@ export default function AboutPage() {
 
         <div className="space-y-4 text-gray-200">
           <p>
-            Over the past two years, I’ve developed solid skills in React,
-            JavaScript, Tailwind CSS, Vite and API integration. I’m especially
-            excited by clean UI design, performance optimization, and crafting
-            seamless user flows.
+            I have a background with two years in Information Technology and
+            Media Production, followed by two years specializing in Front-End
+            Development, and I am now continuing my journey as a Web Design
+            student.
           </p>
           <p>
-            My projects include e-commerce stores, booking platforms, and modern
-            dashboards — all designed to be mobile-first and accessible.
+            Throughout this path, I’ve developed strong skills in React,
+            JavaScript, Tailwind CSS, Vite, and API integration. I’m passionate
+            about clean UI design, performance optimization, and building
+            seamless user experiences.
+          </p>
+          <p>
+            My projects range from e-commerce stores and booking platforms to
+            modern dashboards — all created with a mobile-first and
+            accessibility-focused approach. I’m always eager to learn new tools
+            and techniques, and I enjoy turning ideas into practical, creative,
+            and user-friendly digital solutions.
           </p>
           <p>
             I’m constantly learning and love building tools that solve real
             problems.
           </p>
           <a
-            href="/Romelyn-Resume.pdf"
+            href="/CV_English.pdf"
             className="inline-block bg-[#D98969] hover:bg-[#c97256] text-gray-200 font-semibold px-5 py-2 rounded transition duration-300"
             download
           >
-            Download Resume
+            Download CV
           </a>
         </div>
       </div>
