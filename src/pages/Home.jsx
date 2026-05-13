@@ -2,26 +2,33 @@ import ProjectCard from '../components/ProjectCard';
 import jsImg from '/assets/jsfw.png';
 import semImg from '/assets/sem2-desktop.png';
 import examImg from '/assets/exam2.png';
+import cmsImg from "/assets/cms-home.png";
 
 export default function Home() {
   const projects = [
     {
-      title: 'JavaScript Frameworks',
-      desc: 'E-commerce Store built with React with routing, auth, API & filtering.',
-      path: '/projects/js-frameworks',
+      title: "JavaScript Frameworks",
+      desc: "E-commerce Store built with React with routing, auth, API & filtering.",
+      path: "/projects/js-frameworks",
       image: jsImg,
     },
     {
-      title: 'Semester Project 2',
-      desc: 'Auction Website frontend using Noroff API where users can bid on listings.',
-      path: '/projects/semester-project-2',
+      title: "Auction Website",
+      desc: "Auction Website frontend using Noroff API where users can bid on listings.",
+      path: "/projects/semester-project-2",
       image: semImg,
     },
     {
-      title: 'Exam Project 2',
-      desc: 'Venue booking frontend using Noroff API, auth, and filtering.',
-      path: '/projects/exam-project-2',
+      title: "Booking Website",
+      desc: "Venue booking frontend using Noroff API, auth, and filtering.",
+      path: "/projects/exam-project-2",
       image: examImg,
+    },
+    {
+      title: "CMS Framer",
+      desc: "A functional website using the CMS tool Framer.",
+      path: "/projects/cms-framer",
+      image: cmsImg,
     },
   ];
 

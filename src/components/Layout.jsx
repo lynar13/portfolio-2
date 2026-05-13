@@ -84,6 +84,17 @@ export default function Layout({ children }) {
                       Exam Project 2
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/projects/cms-framer"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                      onClick={() =>
+                        setTimeout(() => setProjectsOpen(false), 100)
+                      }
+                    >
+                      CMS Framer
+                    </Link>
+                  </li>
                 </ul>
               )}
             </div>
@@ -151,6 +162,18 @@ export default function Layout({ children }) {
                       Exam Project 2
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/projects/cms-framer"
+                      onClick={() => {
+                        setNavOpen(false);
+                        setTimeout(() => setProjectsOpen(false), 100); // delay to allow navigation
+                      }}
+                      className="block"
+                    >
+                      CMS Framer
+                    </Link>
+                  </li>
                 </ul>
               )}
             </div>
@@ -161,7 +184,8 @@ export default function Layout({ children }) {
       <main className="flex-1">{children}</main>
 
       <footer className="text-center text-sm py-6 bg-gray-50 text-gray-600">
-        &copy; {new Date().getFullYear()} Romelyn Resell — All rights reserved.
+        &copy; {new Date().getFullYear()} Romelyn Argoncillo — All rights
+        reserved.
       </footer>
     </div>
   );
