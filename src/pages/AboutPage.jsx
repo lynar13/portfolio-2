@@ -13,8 +13,9 @@ export default function AboutPage() {
         About Me
       </h1>
       <p className="text-lg text-gray-200 mb-6 text-center">
-        Hi, I’m Romelyn! 👋 I’m a Front-end development graduate and now a Web Design student
-        with a background in IT and media production. Skilled in React,
+        Hi, I’m Romelyn! 👋 I’m a Front-end development and Web Design graduate
+        with a background in IT and media production. Skilled in CMS Framer, Figma,
+        Wireframes, React,
         JavaScript, Tailwind CSS, and API integration, with a strong focus on
         clean UI and user-friendly digital solutions.
       </p>
